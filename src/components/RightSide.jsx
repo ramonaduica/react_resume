@@ -73,7 +73,7 @@ export const RightSide = function () {
                 <br/>
                 <b>DUICĂ</b>
             </h1>
-            <span>PHP Developer</span>
+            {/*<span>Web Developer</span>*/}
 
             <article id="skills">
                 <div className='skills text-block'>
