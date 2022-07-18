@@ -1,0 +1,95 @@
+@import "../../styles/vars.scss";
+
+#right-side {
+  background-color: $light-bg-color;
+  #avatar {
+    text-align: right;
+    margin: 12px 0 0;
+    img {
+      width: 113px;
+      border-radius: 50%;
+    }
+  }
+  h1 {
+    margin-top: -48px;
+    margin-bottom: 8px;
+    font-size: 34px;
+    font-weight: 100;
+    color: $dark-grey;
+    font-family: 'Averta-Light', sans-serif;
+    b {
+      font-family: 'Averta-Regular', sans-serif;
+    }
+
+  }
+  h2, h3 {
+    color: $dark-grey;
+  }
+  h1 + span {
+    background-color: $dark-grey;
+    display: inline-block;
+    color: $light-bg-color;
+    text-transform: uppercase;
+    padding: 6px 15px;
+    font-size: 16px;
+    font-weight: 100;
+  }
+
+  #skills {
+    h3 + ul > li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $dark-grey;
+    }
+  }
+  .dots-wrapper {
+    display: flex;
+    li {
+      width: 8px;
+      height: 8px;
+      margin-right: 6px;
+      border-radius: 50%;
+      background-color: #C2C2C2;
+      &.selected-dot-skill {
+        background-color: #7f7f7f;
+      }
+    }
+  }
+
+
+  .text-block {
+    position: relative;
+    margin-bottom: 48px;
+    color: $dark-grey;
+  }
+
+  .skills {
+    margin-top: 36px;
+  }
+  .education {
+    & > div {
+      display: flex;
+      margin-bottom: 24px;
+
+      p {
+        margin: 0 0 0 12px;
+        color: $dark-grey;
+      }
+    }
+  }
+  .links-section {
+    color: $dark-grey;
+    & > div {
+
+
+    }
+    img {
+      width: 38px;
+    }
+
+    p {
+      margin: 0 0 0 12px;
+    }
+  }
+}
